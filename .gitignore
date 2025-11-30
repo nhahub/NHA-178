@@ -1,0 +1,85 @@
+# MLflow Configuration
+mlruns/
+mlartifacts/
+.mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data
+data/*.csv
+data/*.pkl
+data/*.h5
+
+# Models
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.joblib
+
+# Artifacts
+artifacts/*.png
+artifacts/*.jpg
+artifacts/*.pdf
+artifacts/*.csv
+artifacts/*.json
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Reports
+*.txt
+!requirements.txt
+!README.txt
+
+# MLflow specific
+.trash/
+*.db-journal
